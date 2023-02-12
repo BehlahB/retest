@@ -1,0 +1,245 @@
+html, body {
+    height: 100%;
+    width: 100%; 
+    padding: 0px;
+    margin: 0px;
+}
+.topheader{
+  width:100%;height:100px;
+}
+.menu{
+  width:100%;height:60px; background-color:#000000; 
+}
+.banner{
+  width:100%;height:300px; background-color:white;
+}
+.container{
+  width:100%;height:550px; background-color:white;margin-bottom: 0px; 
+}
+.footer{
+  width:100%;
+  height:300px;
+  background-color:rgb(196, 196, 171); 
+  font-size:20px;
+  margin-top: 0px;
+}
+.leftc{
+  width:30%;height:580px; background-color: rgb(228, 228, 194); float:left;
+}
+.rightc{
+  width:70%;height:580px; background-color:#ffffff; float:right;
+}
+.LOGO{
+    height:100px;width:100%;margin-left:0px;float:left
+}
+.button1{
+  color:#ffffff;text-decoration:none;margin-left:30px;background:#19c0d7; padding:6px;border:1px solid #19c0d7;border-radius:40px
+}
+.button1:hover {
+    background:#058a9b;
+}
+.footer1{
+  width:30%; padding:20px; height:200px;float:left;
+}
+div.gallery1{
+  margin:5px; width:38%; float:left; border:1px solid black;
+}
+div.gallery1:hover {
+  border:1px solid red;
+}
+div.gallery1 img{
+    width:100%;
+    height:auto;
+}
+.forms {
+  width: 250px;
+  height:50px;
+  border:1 px solid blue;
+  border-radius:10px;
+  font-size:25px;
+}
+.label1 {
+  color: red;
+  font-size:30px
+}
+.button2 {
+  width: 90px;
+  height: 45px;
+  background-color: lightgreen;
+  padding: 12px 16px;
+  border: 1px solid lightgreen; border-radius:15px;
+  cursor:pointer;
+}
+.button2:hover {
+    background:#5b9d4d; color: white
+}
+
+.pbox {
+  height:400px;
+  width:350px;
+  float:left;
+  background-color:rgb(196, 196, 171);
+  font-size:15px;
+  color:black;
+  text-align:center;
+  margin-left: 85px;
+  margin-top: 25px; 
+  margin-right:60px;
+  position:relative;
+}
+
+.pbox:hover{
+  background-color:rgb(178, 178, 138);
+}
+
+.Htour {
+  height:180px;
+  width:100%;
+  background-color:rgb(228, 228, 194);
+  font-size:35px;
+  text-align:center;
+  padding-top:10px;
+}
+.tourfooter {
+  height:330px;
+  width:100%;
+  float:left;
+  margin-top:0px;
+}
+.tourcontainer {
+  width:100%;
+  height:2000px;
+  margin-bottom: 0px; 
+  background-color:rgb(196, 196, 171);
+  padding-bottom:30px;
+  background-position: center;
+  margin-top:0px;
+}
+
+.tourcontainer2{
+  width:100%;
+  height:1300px;
+  margin-bottom: 0px; 
+  background-color:rgb(196, 196, 171);
+  padding-bottom:30px;
+  background-position: center;
+  margin-top:0px;
+}
+.tourcontainer5{
+  width:100%;
+  height:1300px;
+  margin-bottom: 0px; 
+  background-color:rgb(196, 196, 171);
+  padding-bottom:30px;
+  background-position: center;
+  margin-top:0px;
+}
+
+.H {
+  width:90%;
+  height:100vh;
+  background-image:linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position:relative;
+  display:flex;
+  padding:0px 5%;
+  align-items: center;
+  justify-content: center;
+}
+nav {
+  width:80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right:0px;
+}
+
+nav .logo1 {
+  width:120px;
+  height:80px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left:30px;
+}
+
+nav ul li:hover{
+  border:1px solid gray;
+  border-radius:45px;
+  padding:5px;
+}
+
+nav ul li a{
+  text-decoration:none;
+  color:white;
+  font-size:17px;
+
+}
+.content2{
+  text-align: center;
+}
+
+.content2 h1{
+  font-size:90px;
+  color:white;
+  font-weight:600;
+  transition: 0.5s;
+}
+
+.content2 h1:hover{
+  -webkit-text-stroke: 2px white;
+  color:transparent;
+}
+
+.video1{
+  position:absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  margin-top:0px;
+  padding:0px;
+}
+
+@media (min-aspect-ratio: 16/9){
+  .video1{
+    width:100% ;
+    height:auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9){
+  .video1{
+    width:auto ;
+    height:100%;
+  }
+}
+
+.picture_table{
+  height:1900px;
+  width:90%;
+  border:0px ;
+  align-items: center;
+  text-align: center;
+  color:white;
+  text-decoration: none;
+
+}
+
+.picture_table tr td img{
+  height:350px;
+  width:550px;
+  align-self: center;
+}
+.picturecontainer{
+  width:100%;
+  height:3600px;
+  margin-bottom: 0px; 
+  background-color:rgb(196, 196, 171);
+  padding-bottom:30px;
+  background-position: center;
+  margin-top:0px;
+}
